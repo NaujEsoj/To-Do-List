@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+
+body {
+  align-items: center;
+  background-image: linear-gradient(66deg, #fdeb82, #f78fad);
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+  height: auto;
+}
+
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+/* <!-- HTML !-->
+<button class="button-54" role="button">Button 54</button>
+ */
+.button-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-decoration: none;
+
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+.container {
+display: inline;
+}
+
+li {
+  list-style-type: square;
+  margin-top: 50px;
+}
+
+.strokeText {
+  text-decoration: line-through;
+  color: lightslategray;
+}
+
+span {
+  display: flex;
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+
+
