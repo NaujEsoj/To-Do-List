@@ -6,7 +6,7 @@ const taskObject = {
   taskName: null
 }
 
-tasksContainer.textContent = 'No tasks to display'
+tasksContainer.textContent = '*no tasks to display'
 
 let taskCounter = 0
 let tasksArray = []
